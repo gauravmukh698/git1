@@ -10,7 +10,7 @@
 <http://ontologies.metaphacts.com/testontology> a owl:Ontology;
   dcterms:title "testOntology";
   vaem:namespace <http://ontologies.metaphacts.com/testontology/>;
-  rdfs:label "testOntology" .
+  rdfs:label "testOntology1" .
 
 :Ontology1 a owl:Class;
   rdfs:isDefinedBy <http://ontologies.metaphacts.com/testontology>;
