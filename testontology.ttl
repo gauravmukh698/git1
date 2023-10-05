@@ -7,11 +7,11 @@
 @prefix vaem: <http://www.linkedmodel.org/1.2/schema/vaem#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://ontologies.metaphacts.com/testontology> a owl:Ontology;
-  dcterms:title "testOntology";
-  vaem:namespace <http://ontologies.metaphacts.com/testontology/>;
+<http://ontologies.metaphacts.com/testontology1> a owl:Ontology;
+  dcterms:title "testOntology1";
+  vaem:namespace <http://ontologies.metaphacts.com/testontology1/>;
   rdfs:label "testOntology1" .
 
 :Ontology1 a owl:Class;
-  rdfs:isDefinedBy <http://ontologies.metaphacts.com/testontology>;
+  rdfs:isDefinedBy <http://ontologies.metaphacts.com/testontology1>;
   rdfs:label "ontology1" .
