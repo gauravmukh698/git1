@@ -1,0 +1,31 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ex:    <http://example.org/tintin#> .
+
+# Define Tintin as a class
+ex:Tintin  rdf:type  owl:Class ;
+           rdfs:label "Tintin" .
+
+# Define other characters as classes
+ex:CaptainHaddock  rdf:type  owl:Class ;
+                   rdfs:label "Captain Haddock" .
+
+ex:ProfessorCalculon  rdf:type  owl:Class ;
+                     rdfs:label "Professor Calculon" .
+
+# Define relationships between characters
+ex:Tintin ex:friendOf ex:CaptainHaddock .
+
+# Define some of Tintin's adventures
+ex:Tintin ex:participatesIn ex:TintinInTibet .
+
+# Define Tintin in Tibet adventure
+ex:TintinInTibet  rdf:type  owl:Class ;
+                 rdfs:label "Tintin in Tibet" .
+
+ex:TintinInTibet ex:takesPlaceIn ex:Himalayas .
+
+# Define locations
+ex:Himalayas  rdf:type  owl:Class ;
+             rdfs:label "The Himalayas" .
